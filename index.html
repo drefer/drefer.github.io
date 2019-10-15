@@ -1,0 +1,28 @@
+!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Калькулятор</title>
+	</head>
+	<body>
+		<form name='choices1'>
+			<p>Выберите систему с которой будете переводить</p>
+			<input type='radio' name='choice' id='two' value='двоичная' checked>Двоичная<br>
+			<input type='radio' name='choice' id='eight' value='восьмиричная'>Восьмиричная<br>
+			<input type='radio' name='choice' id='ten' value='десятиричная'>Десятиричная<br>
+			<input type='radio' name='choice' id='sixteen' value='шестнадцатиричная'>Шестнадцатиричная<br>
+		</form><br>
+		<form name="convertion">
+			<input type='text' name='number' id='number' placeholder='введите число' />
+			<input type='button' name='convert' id='elem' value='перевести' />
+			<input type='text' name='answear' id='cell1' placeholder='Ответ' />
+			<input type='button' id='but1' value='8'/><br>
+			<p style="margin-left: 248px"><input type='text' name='answear' id='cell2' placeholder='Ответ' />
+			<input type='button' id='but2' value='10'/><br></p>
+			<p style="margin-left: 248px"><input type='text' name='answear' id='cell3' placeholder='Ответ' />
+			<input type='button' id='but3' value='16'/>
+			</p>
+		</form>
+	<script src="calculator_v2.js" async></script>
+	</body>
+</html>
